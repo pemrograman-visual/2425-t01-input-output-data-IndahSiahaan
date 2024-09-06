@@ -4,9 +4,9 @@
         <attribute name="name" value="T01"/>
         <attribute name="authors" value="indah"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-06 11:10:28 AM"/>
+        <attribute name="saved" value="2024-09-06 11:35:20 AM"/>
         <attribute name="created" value="aW5kYWg7SU5EQUhIU0hOXzsyMDI0LTA5LTA2OzEwOjEwOjU2IEFNOzI1Mzc="/>
-        <attribute name="edited" value="aW5kYWg7SU5EQUhIU0hOXzsyMDI0LTA5LTA2OzExOjEwOjI4IEFNOzE7MjY0NQ=="/>
+        <attribute name="edited" value="aW5kYWg7SU5EQUhIU0hOXzsyMDI0LTA5LTA2OzExOjM1OjIwIEFNOzI7MjY0NQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,8 +16,8 @@
             <declare name="Penulis" type="String" array="False" size=""/>
             <declare name="TahunTerbit" type="Integer" array="False" size=""/>
             <declare name="Penerbit" type="String" array="False" size=""/>
-            <declare name="Format" type="String" array="False" size=""/>
-            <declare name="Harga" type="Real" array="False" size=""/>
+            <declare name="FormatBukuElektronik" type="String" array="False" size=""/>
+            <declare name="HargaPembelian" type="Real" array="False" size=""/>
             <declare name="MinimumMargin" type="Real" array="False" size=""/>
             <declare name="Stok" type="Integer" array="False" size=""/>
             <declare name="Rating" type="Real" array="False" size=""/>
@@ -26,8 +26,8 @@
             <input variable="Penulis"/>
             <input variable="TahunTerbit"/>
             <input variable="Penerbit"/>
-            <input variable="Format"/>
-            <input variable="Harga"/>
+            <input variable="FormatBukuElektronik"/>
+            <input variable="HargaPembelian"/>
             <input variable="MinimumMargin"/>
             <input variable="Stok"/>
             <input variable="Rating"/>
