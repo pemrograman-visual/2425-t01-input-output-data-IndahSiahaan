@@ -13,8 +13,8 @@ public class T01 {
         String penulis;
         int tahunTerbit;
         String penerbit;
-        String format;
-        double harga;
+        String formatBukuElektronik;
+        double hargaPembelian;
         double minimumMargin;
         int stok;
         double rating;
@@ -24,11 +24,11 @@ public class T01 {
         penulis = input.nextLine();
         tahunTerbit = input.nextInt();
         penerbit = input.nextLine();
-        format = input.nextLine();
-        harga = input.nextDouble();
+        formatBukuElektronik = input.nextLine();
+        hargaPembelian = input.nextDouble();
         minimumMargin = input.nextDouble();
         stok = input.nextInt();
         rating = input.nextDouble();
-        System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahunTerbit + "|" + penerbit + "|" + format + "|" + harga + "|" + minimumMargin + "|" + stok + "|" + rating);
+        System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahunTerbit + "|" + penerbit + "|" + Format + "|" + Harga + "|" + minimumMargin + "|" + stok + "|" + rating);
     }
 }
